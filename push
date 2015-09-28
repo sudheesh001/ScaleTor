@@ -1,0 +1,1 @@
+rsync -avzh -e "ssh -i /.ssh/keyfile.pem" FROMPATH username@serverIPAddress:serverPathToFolder --exclude-from 'rsyncignore' --delete

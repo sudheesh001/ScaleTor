@@ -1,0 +1,8 @@
+.git
+.gitignore
+.DS_Store
+push
+rsyncignore
+/data
+/node_modules/zmq
+/logs
